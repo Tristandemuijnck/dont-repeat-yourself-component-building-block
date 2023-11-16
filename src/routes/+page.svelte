@@ -9,7 +9,7 @@
 <!-- <Button btnType="text" btnText="Inloggen" --btn-color="green"></Button> -->
 
 <!-- Icon -->
-<Icon icon="arrow-right.svg" --icon-width="1.6rem"></Icon>
+<Icon iconSrc="/images/icons/arrow-right.svg" --icon-width="1.6rem"></Icon>
 
 <!-- InputField -->
 <InputField inputType="text" inputPlaceholder="Vul hier uw emailadres in" inputName="email" inputId="email"></InputField>

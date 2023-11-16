@@ -1,9 +1,9 @@
 <script>
-    export let icon
+    export let iconSrc
 </script>
 
 <div class="icon">
-    <img src="/images/icons/{icon}" alt="">
+    <img src="{iconSrc}" alt="">
 </div>
 
 <style>
