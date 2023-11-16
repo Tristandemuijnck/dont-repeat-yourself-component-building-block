@@ -2,6 +2,7 @@
 	import Button from '$lib/atoms/Button.svelte';
 	import Icon from '$lib/atoms/Icon.svelte';
 	import InputField from '$lib/atoms/InputField.svelte';
+    import Label from '$lib/atoms/Label.svelte';
 </script>
 
 <!-- Button -->
@@ -13,3 +14,6 @@
 
 <!-- InputField -->
 <InputField inputType="text" inputPlaceholder="Vul hier uw emailadres in" inputName="email" inputId="email"></InputField>
+
+<!-- Label -->
+<Label labelFor="email" labelText="Emailadres"></Label>

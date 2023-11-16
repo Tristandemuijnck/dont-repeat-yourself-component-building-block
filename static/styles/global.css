@@ -17,6 +17,48 @@
     --color-white: #FFFFFF;
 }
 
-body {
-    background-color: gray;
+/* -------------------------------------------------------------------------- */
+/*                                    Reset                                   */
+/* -------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Font imports                                */
+/* -------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf');
+}
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    background-color: var(--color-hva-blue);
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-white);
+    height: 100%;
 }
