@@ -16,3 +16,7 @@
     --color-hva-green: #02857D;
     --color-white: #FFFFFF;
 }
+
+body {
+    background-color: gray;
+}
