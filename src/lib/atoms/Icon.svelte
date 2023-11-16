@@ -9,7 +9,9 @@
 <style>
     .icon {
         width: var(--icon-width, 0.8rem);
-        height: auto
+        height: auto;
+        display: flex;
+        align-items: center;
     }
 
     img {
